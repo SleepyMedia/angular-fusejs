@@ -6,7 +6,7 @@ import _set = require('lodash.set');
 import _get = require('lodash.get');
 
 
-export interface AngularFusejsOptions extends FuseOptions {
+export interface AngularFusejsOptions extends FuseOptions<object> {
   supportHighlight?: boolean;
   fusejsHighlightKey?: string;
   fusejsScoreKey?: string;
